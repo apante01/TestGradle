@@ -1,9 +1,11 @@
+package testFibonacci;
+
 import java.util.Scanner;
 
 public class Fibonacci {
 
-    public static void fibonacciGetNumber(Scanner scanner) {
-int n = scanner.nextInt();
+    public static void fibonacciGetNumber() {
+int n = 10;
         int[] array = new int[n];
         array[0]=0;
         array[1]=1;
